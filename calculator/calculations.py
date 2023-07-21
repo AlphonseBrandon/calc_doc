@@ -2,6 +2,12 @@
 
 def add(a, b):
     """Compute and returns the sum of two numbers.
+
+    Examples:
+        >>> add(4.0, 2.0)
+        6.0
+        >>> add(4, 2)
+        6.0
     
     Args:
         a (float): A number representing the first addend in the addition.
@@ -14,6 +20,12 @@ def add(a, b):
 
 def subtract(a, b):
     """Computes the difference between two numbers
+
+    Examples:
+    >>> subtract(4.0, 2.0)
+    2.0
+    >>> subtract(4, 2)
+    2.0
     
     Args:
         a (float): A number representing the first number in the substraction.
@@ -22,10 +34,16 @@ def subtract(a, b):
     Returns:
         float: A number representing the difference of the two numbers `a` and `b`
     """
-    return float(a, b)
+    return float(a - b)
 
 def multiply(a, b):
-    """Computes the multiplication of two numbers
+    """Computes the multiplication of two numbers.
+
+    Examples:
+        >>> multiply(4.0, 2.0)
+        8.0
+        >>> multiply(4, 2)
+        8.0
     
     Args:
         a (float): A number representing the first number in the multiplication.
@@ -34,10 +52,16 @@ def multiply(a, b):
     Returns:
         float: A number representing the difference between the two numbers `a` and `b`
     """
-    return float(a, b)
+    return float(a * b)
 
 def divide(a, b):
-    """Computes the division of two numbers
+    """Computes the division of two numbers.
+    
+    Examples:
+        >>> divide(4.0, 2.0)
+        2.0
+        >>> divide(4, 2)
+        2.0
     
     Args:
         a (float): A number representing the divident in the division.
